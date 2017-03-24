@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 //数组相加的办法
-public class Main {
+public class AddArrays {
 	public static void main(String args[]) {
 		String a[] = { "A", "E", "I" };
 		String b[] = { "O", "U" };

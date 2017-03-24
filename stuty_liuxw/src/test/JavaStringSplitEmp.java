@@ -1,5 +1,5 @@
 package test;
-
+//用指定字符分割字符串
 public class JavaStringSplitEmp {
    public static void main(String args[]){
       
