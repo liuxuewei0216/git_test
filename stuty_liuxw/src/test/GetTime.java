@@ -1,7 +1,7 @@
 package test;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+//获取系统时间、时间戳
 public class GetTime {
 	public static void main(String[] args) {
 		// 获取当前时间戳

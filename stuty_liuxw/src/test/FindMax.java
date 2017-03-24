@@ -1,6 +1,7 @@
 package test;
 
 import java.util.*;
+//查找字符串的最大值
 //给字符串排序，默认是0-9，a-z
 public class FindMax {
    public static void main(String[] args) {
