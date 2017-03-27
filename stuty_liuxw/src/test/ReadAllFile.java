@@ -1,6 +1,6 @@
 package test;
 import java.io.*;
-// 一次性读取文件内容，并查找某字符串的位置
+// 一次性读取文件内容，并查找某字符串第一次出现的位置
 public class ReadAllFile{
     public static void main(String[] args)  {
     	try {
