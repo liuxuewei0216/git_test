@@ -8,11 +8,12 @@ public class ThreadDemo extends Thread {
 		// 初始化实例，并执行run方法，start就是执行run方法
 		ThreadDemo thread = new ThreadDemo();
 		thread.start();
-//		join方法的意思是等待线程结束
+		// join方法的意思是等待线程结束
 		thread.join();
 		// 下面的代码可以达到和上面两行同样的效果，如果不是run方法，则直接写方法名即可
-		new ThreadDemo().run1();
-		thread.join();
+		ThreadDemo thread2 = new ThreadDemo();
+		thread2.start();
+		thread2.join();
 		System.out.println(result);
 	}
 
