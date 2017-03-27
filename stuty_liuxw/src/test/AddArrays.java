@@ -3,6 +3,7 @@ package test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
 //数组相加的办法
 public class AddArrays {
 	public static void main(String args[]) {
