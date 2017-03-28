@@ -3,7 +3,6 @@ package test;
 //通过继承Thread类型实现多线程的方法
 public class ThreadDemo extends Thread {
 	static int result = 0;
-
 	public static void main(String[] args) throws InterruptedException {
 		// 初始化实例，并执行run方法，start就是执行run方法
 		ThreadDemo thread = new ThreadDemo();
