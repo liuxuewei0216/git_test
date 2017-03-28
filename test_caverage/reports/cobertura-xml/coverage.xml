@@ -1,0 +1,638 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.23423423423423423" branch-rate="0.175" lines-covered="26" lines-valid="111" branches-covered="7" branches-valid="40" complexity="1.5862068965517242" version="2.1.1" timestamp="1478236723645">
+	<sources>
+		<source>src</source>
+	</sources>
+	<packages>
+		<package name="junit" line-rate="0.3880597014925373" branch-rate="0.20588235294117646" complexity="1.8235294117647058">
+			<classes>
+				<class name="junit.Cal" filename="junit/Cal.java" line-rate="1.0" branch-rate="1.0" complexity="1.4285714285714286">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="5" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="add" signature="(I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="9" hits="2" branch="false"/>
+								<line number="10" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="clear" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="37" hits="5" branch="false"/>
+								<line number="38" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="getResult" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="41" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="sum" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="28" hits="1" branch="false"/>
+								<line number="29" hits="101" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="30" hits="100" branch="false"/>
+								<line number="31" hits="100" branch="false"/>
+								<line number="34" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="sumij" signature="(II)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="45" hits="1" branch="false"/>
+								<line number="46" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="timeout" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="1" branch="false"/>
+								<line number="14" hits="101" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="15" hits="100" branch="false"/>
+								<line number="17" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="timeout2" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="22" hits="101" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="23" hits="100" branch="false"/>
+								<line number="25" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="5" hits="1" branch="false"/>
+						<line number="9" hits="2" branch="false"/>
+						<line number="10" hits="2" branch="false"/>
+						<line number="13" hits="1" branch="false"/>
+						<line number="14" hits="101" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="15" hits="100" branch="false"/>
+						<line number="17" hits="1" branch="false"/>
+						<line number="22" hits="101" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="23" hits="100" branch="false"/>
+						<line number="25" hits="1" branch="false"/>
+						<line number="28" hits="1" branch="false"/>
+						<line number="29" hits="101" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="30" hits="100" branch="false"/>
+						<line number="31" hits="100" branch="false"/>
+						<line number="34" hits="1" branch="false"/>
+						<line number="37" hits="5" branch="false"/>
+						<line number="38" hits="5" branch="false"/>
+						<line number="41" hits="3" branch="false"/>
+						<line number="45" hits="1" branch="false"/>
+						<line number="46" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="junit.IfElseDemo" filename="junit/IfElseDemo.java" line-rate="0.42857142857142855" branch-rate="0.125" complexity="5.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="main" signature="(I)Ljava/lang/String;" line-rate="0.3333333333333333" branch-rate="0.125" complexity="0">
+							<lines>
+								<line number="6" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="7" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="8" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="9" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="10" hits="0" branch="false"/>
+								<line number="11" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="1" branch="false"/>
+						<line number="6" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="7" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="8" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="9" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="10" hits="0" branch="false"/>
+						<line number="11" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="junit.Inter1" filename="junit/Inter1.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="junit.Inter2" filename="junit/Inter2.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="junit.Test_case" filename="junit/Test_case.java" line-rate="0.0" branch-rate="0.0" complexity="2.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="main" signature="([Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="6" hits="0" branch="false"/>
+								<line number="7" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="switchTest" signature="(Ljava/lang/String;)I" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="11" hits="0" branch="false"/>
+								<line number="12" hits="0" branch="true" condition-coverage="0% (0/10)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+										<condition number="1" type="jump" coverage="0%"/>
+										<condition number="0" type="switch" coverage="0%"/>
+										<condition number="1" type="switch" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="14" hits="0" branch="false"/>
+								<line number="15" hits="0" branch="false"/>
+								<line number="17" hits="0" branch="false"/>
+								<line number="18" hits="0" branch="false"/>
+								<line number="20" hits="0" branch="false"/>
+								<line number="23" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="0" branch="false"/>
+						<line number="6" hits="0" branch="false"/>
+						<line number="7" hits="0" branch="false"/>
+						<line number="11" hits="0" branch="false"/>
+						<line number="12" hits="0" branch="true" condition-coverage="0% (0/10)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+								<condition number="1" type="jump" coverage="0%"/>
+								<condition number="0" type="switch" coverage="0%"/>
+								<condition number="1" type="switch" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="14" hits="0" branch="false"/>
+						<line number="15" hits="0" branch="false"/>
+						<line number="17" hits="0" branch="false"/>
+						<line number="18" hits="0" branch="false"/>
+						<line number="20" hits="0" branch="false"/>
+						<line number="23" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="junit.Test_loop" filename="junit/Test_loop.java" line-rate="0.0" branch-rate="0.0" complexity="4.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="main" signature="([Ljava/lang/String;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="6" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="9" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="11" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="13" hits="0" branch="false"/>
+								<line number="14" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="0" branch="false"/>
+						<line number="6" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="9" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="11" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="13" hits="0" branch="false"/>
+						<line number="14" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="junit.Test_loop2" filename="junit/Test_loop2.java" line-rate="0.0" branch-rate="0.0" complexity="3.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="3" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="main" signature="([Ljava/lang/String;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="6" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="11" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="13" hits="0" branch="false"/>
+								<line number="14" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="3" hits="0" branch="false"/>
+						<line number="6" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="11" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="13" hits="0" branch="false"/>
+						<line number="14" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="junit.test1" filename="junit/test1.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="10" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="run" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="0" branch="false"/>
+								<line number="14" hits="0" branch="false"/>
+								<line number="15" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="10" hits="0" branch="false"/>
+						<line number="13" hits="0" branch="false"/>
+						<line number="14" hits="0" branch="false"/>
+						<line number="15" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="junit.test2" filename="junit/test2.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="10" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="testxiao" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="14" hits="0" branch="false"/>
+								<line number="15" hits="0" branch="false"/>
+								<line number="16" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="testxiaow" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="0" branch="false"/>
+								<line number="21" hits="0" branch="false"/>
+								<line number="22" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="10" hits="0" branch="false"/>
+						<line number="14" hits="0" branch="false"/>
+						<line number="15" hits="0" branch="false"/>
+						<line number="16" hits="0" branch="false"/>
+						<line number="20" hits="0" branch="false"/>
+						<line number="21" hits="0" branch="false"/>
+						<line number="22" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="junit.test3" filename="junit/test3.java" line-rate="0.42857142857142855" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="9" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="testx" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="0" branch="false"/>
+								<line number="14" hits="0" branch="false"/>
+								<line number="15" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="testxi" signature="()V" line-rate="0.6666666666666666" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="1" branch="false"/>
+								<line number="21" hits="1" branch="false"/>
+								<line number="22" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="1" branch="false"/>
+						<line number="13" hits="0" branch="false"/>
+						<line number="14" hits="0" branch="false"/>
+						<line number="15" hits="0" branch="false"/>
+						<line number="20" hits="1" branch="false"/>
+						<line number="21" hits="1" branch="false"/>
+						<line number="22" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="test" line-rate="0.0" branch-rate="0.0" complexity="1.25">
+			<classes>
+				<class name="test.Employee" filename="test/Employee.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="9" hits="0" branch="false"/>
+								<line number="10" hits="0" branch="false"/>
+								<line number="11" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="main" signature="([Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="0" branch="false"/>
+								<line number="24" hits="0" branch="false"/>
+								<line number="25" hits="0" branch="false"/>
+								<line number="26" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="printEmp" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="18" hits="0" branch="false"/>
+								<line number="19" hits="0" branch="false"/>
+								<line number="20" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setSalary" signature="(D)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="14" hits="0" branch="false"/>
+								<line number="15" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="0" branch="false"/>
+						<line number="10" hits="0" branch="false"/>
+						<line number="11" hits="0" branch="false"/>
+						<line number="14" hits="0" branch="false"/>
+						<line number="15" hits="0" branch="false"/>
+						<line number="18" hits="0" branch="false"/>
+						<line number="19" hits="0" branch="false"/>
+						<line number="20" hits="0" branch="false"/>
+						<line number="23" hits="0" branch="false"/>
+						<line number="24" hits="0" branch="false"/>
+						<line number="25" hits="0" branch="false"/>
+						<line number="26" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="test.If_test" filename="test/If_test.java" line-rate="0.0" branch-rate="0.0" complexity="3.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="9" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="main" signature="([Ljava/lang/String;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="11" hits="0" branch="false"/>
+								<line number="12" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="13" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="14" hits="0" branch="false"/>
+								<line number="16" hits="0" branch="false"/>
+								<line number="18" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="0" branch="false"/>
+						<line number="11" hits="0" branch="false"/>
+						<line number="12" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="13" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="14" hits="0" branch="false"/>
+						<line number="16" hits="0" branch="false"/>
+						<line number="18" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="test.Puppy" filename="test/Puppy.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="5" hits="0" branch="false"/>
+								<line number="7" hits="0" branch="false"/>
+								<line number="8" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getAge" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="15" hits="0" branch="false"/>
+								<line number="16" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="main" signature="([Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="0" branch="false"/>
+								<line number="23" hits="0" branch="false"/>
+								<line number="25" hits="0" branch="false"/>
+								<line number="27" hits="0" branch="false"/>
+								<line number="28" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setAge" signature="(I)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="11" hits="0" branch="false"/>
+								<line number="12" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="5" hits="0" branch="false"/>
+						<line number="7" hits="0" branch="false"/>
+						<line number="8" hits="0" branch="false"/>
+						<line number="11" hits="0" branch="false"/>
+						<line number="12" hits="0" branch="false"/>
+						<line number="15" hits="0" branch="false"/>
+						<line number="16" hits="0" branch="false"/>
+						<line number="21" hits="0" branch="false"/>
+						<line number="23" hits="0" branch="false"/>
+						<line number="25" hits="0" branch="false"/>
+						<line number="27" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="test.SuiteClasses_test" filename="test/SuiteClasses_test.java" line-rate="0.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="test.TestParent" filename="test/TestParent.java" line-rate="0.0" branch-rate="0.0" complexity="1.5">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="5" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="4" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getInstance" signature="()Ltest/TestParent;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="8" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="9" hits="0" branch="false"/>
+								<line number="10" hits="0" branch="false"/>
+								<line number="12" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="init" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="16" hits="0" branch="false"/>
+								<line number="18" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="4" hits="0" branch="false"/>
+						<line number="5" hits="0" branch="false"/>
+						<line number="8" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="9" hits="0" branch="false"/>
+						<line number="10" hits="0" branch="false"/>
+						<line number="12" hits="0" branch="false"/>
+						<line number="16" hits="0" branch="false"/>
+						<line number="18" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="test.Timer_test" filename="test/Timer_test.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="8" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="main" signature="([Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="10" hits="0" branch="false"/>
+								<line number="11" hits="0" branch="false"/>
+								<line number="12" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="8" hits="0" branch="false"/>
+						<line number="10" hits="0" branch="false"/>
+						<line number="11" hits="0" branch="false"/>
+						<line number="12" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
