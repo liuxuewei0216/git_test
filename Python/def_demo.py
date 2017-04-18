@@ -14,4 +14,11 @@ def power(x,n=2):
   result=result*x
  return result
 
+#在函数中调用函数（abs函数的用途是取绝对值）
+def add(a,b):
+ return abs(a)+abs(b)
+
+#计算x的平方
+def f(x):
+ return x*x
 
